@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+@import "bootstrap/scss/bootstrap-grid";
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.header {
+  background-color: white;
+}
+.header h1 {
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 60px;
+}
+.article img {
+  width: 100%;
+}
+.article h2 {
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  line-height: 26px;
+}
+.article h3 {
+  text-align: center;
+  font-family: "Heebo";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.grey {
+  color: #b3b3b3;
+}
+.en-bas {
+  display: flex;
+}
+.en-bas h3 {
+  display: inline;
+}
+.t-sm {
+  margin-top: 50px;
+}
+.text {
+  padding: 25px 10px 30px;
+  background-color: white;
+}
