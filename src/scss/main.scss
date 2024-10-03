@@ -56,7 +56,7 @@ body {
   font-weight: 500;
   line-height: 20px;
 }
-b {
+.t-sm b {
   color: #b3b3b3;
   font-weight: 400;
 }
@@ -78,8 +78,26 @@ b {
   font-family: "DM Serif Display";
 }
 
-p {
+.titre-sec p {
   font-size: 12px;
   font-weight: 500;
   line-height: 50px;
+  background: #eee;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+.article-sec-2 {
+  padding: 25px 20px 30px;
+}
+.article-sec-2 p {
+  margin-top: 20px;
+}
+.art-s-1 h2 {
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  line-height: 26px;
+}
+.art-s-1 .change h2 {
+  font-style: italic;
 }
